@@ -29,3 +29,14 @@ class planet{
 
 };   
 
+int main()
+
+{
+    planet venus;
+    venus.inputdata();
+    cout << " my name is " << venus.name; 
+    cout << "my size is " << venus.diameters; 
+    
+    venus.displaydata();
+
+}
