@@ -33,3 +33,12 @@ class menghitungpersegipanjang
 
 
 
+int main()
+{
+    menghitungpersegipanjang per;
+    per.inputData();
+    per.menghitungluas();
+    per.output();
+    return 0;
+
+}
